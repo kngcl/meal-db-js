@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background:linear-gradient(#d53369, #cbad6d);
+    padding: 5rem;
+}
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 50px;
+}
+
+.list {
+    background:linear-gradient(#d53369, #cbad6d);
+    padding: 3rem;
+    width: 200px;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+    bottom: 0;
+    position: relative;
+    border-radius: 5px;
+}
+
+ .list p {
+     transition: opacity 0.3s;
+    opacity: 0;
+    width: 100%;
+}
+
+.list:hover p {
+    background: rgba(134, 9, 9, 0.7);
+   opacity: 1;
+   cursor: pointer;
+   width: 100%;
+   color: #fff;
+}
+
+h2 {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    width: 80%;
+}
+
+input[type="search"] {
+    padding: 1rem 2rem;
+    border: none
+}
+
+button {
+    padding: 1rem;
+    background-color: #ddcca8;
+    border: none;
+}
